@@ -6,6 +6,7 @@ So, unfortunatelly it took a little bit more time because of some additional stu
 1. Migrate project to TS. It took a while to rewrite sequalize models with relations and setup building stuff
 2. Dockerize the service
 3. Develop simple client app in Angular for testing purposes (I suppose Deel uses React, but I have worked mostly with Vanilla and Angular). Have not dockerized it, but was going to :)
+https://github.com/Pryanishnik/deel-client
 
 ## Suggestions/Concerns
  1. For all APIs I decided that user can not request data which does not belong to him. So, basically, I implement profile_id validation for all sensitive APIs.
